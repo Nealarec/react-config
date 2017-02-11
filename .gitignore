@@ -1,0 +1,7 @@
+# filetypes
+*.log
+
+#folders
+**/node_modules
+
+#includes
