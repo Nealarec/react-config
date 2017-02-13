@@ -12,6 +12,7 @@
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.20.2",
     "webpack": "^1.13.3",
+    "webpack-build-notifier": "^0.1.13",
     "webpack-dev-server": "^1.16.2",
     "webpack-merge": "^0.18.0"
   },

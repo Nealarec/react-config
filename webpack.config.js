@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const merge = require('webpack-merge');
+const WebpackBuildNotifierPlugin = require('webpack-build-notifier');
 
 const ENV = require('./env');
 const PATHS = {
@@ -70,6 +71,10 @@ if (ENV === 'development') {
         },
         plugins: [
             new webpack.HotModuleReplacementPlugin(),
+            new WebpackBuildNotifierPlugin({
+                title: "SanAlejo webpack Build",
+                logo: path.resolve("/img/logo.png"),
+            }),
         ],
     });
 } else {

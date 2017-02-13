@@ -1,5 +1,6 @@
 # filetypes
 *.log
+*.hot-update.js*
 
 #folders
 **/node_modules
