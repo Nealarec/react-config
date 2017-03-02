@@ -2,6 +2,7 @@ import React from 'react';
 import actionCreators from 'store/actions';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import 'sass';
 
 var Hello = ({ user, changeName }) => (
     <div>
